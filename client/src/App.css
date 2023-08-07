@@ -49,6 +49,14 @@ h1{
   margin-left:2.25%;
 }
 
+h2{
+  margin-left: 5%;
+}
+
+h3{
+  font-size: 1.5vw;
+}
+
 .tabs{
   display: flex;
   justify-content: space-evenly;
@@ -85,7 +93,7 @@ h1{
   margin-right: 3vw;
 }
 
-/* about me */
+/* ABOUT ME PAGE CSS */
 .about-container{
   display: flex;
   justify-content: space-around;
@@ -100,7 +108,21 @@ h1{
 }
 
 
-/* contact */
+/* MY RESUME PAGE CSS */
+
+.resume-container{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resumeSpacing{
+  width:100%;
+  text-align: center;
+}
+
+
+/* CONTACT ME PAGE CSS */
 
 .contact-form{
   display: flex;
