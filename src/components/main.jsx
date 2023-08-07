@@ -1,25 +1,28 @@
 import React, { useState } from 'react';
-import about from './about';
-import contact from './contact';
-import portfolio from './portfolio';
-import resume from './resume';
+import AboutMe from './about';
+import Contact from './contact';
+import Portfolio from './portfolio';
+import Resume from './resume';
 import { TopNav, Header, Footer } from './NavHeadFoot';
 
 export default function Pages() {
+    console.log('works?')
     const [page, setPage] = useState('About Me');
 
     const pageContentHandler = (page) => setPage(page);
 
     const navPageMap = {
-        'About Me': <aboutMe />,
-        'Portfolio': <portfolio />,
-        'Resume': <resume />,
-        'Contact': <contact />
+        'About Me': <AboutMe />,
+        'Portfolio': <Portfolio />,
+        'Resume': <Resume />,
+        'Contact': <Contact />
     };
 
     const showPageContent = () => {
-        return navPageMap[page] || <aboutMe />;
+        return navPageMap[page] || <AboutMe />;
     };
+
+    console.log('working???')
 
     return (
         <div className="container">
@@ -38,4 +41,4 @@ export default function Pages() {
             </footer>
         </div>
     );
-}
+}   
