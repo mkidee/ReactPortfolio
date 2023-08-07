@@ -80,6 +80,7 @@ h3{
   width: 20vw;
   margin-left: 2.5%;
   margin-right: 2.5%;
+  border-radius: 30px;
 }
 
 .footerSpace{
@@ -111,6 +112,24 @@ h3{
   color:#45b6fe;
 }
 
+/* MY PORTFOLIO PAGE CSS */
+
+.horiseon-image, .gallery-images{
+  width: 30vw;
+  height:auto;
+  border-radius: 30px;
+}
+
+.gallery-item{
+  display:flex;
+  justify-content: space-around;
+  margin-bottom: 2vw;
+}
+
+.gallery-links a{
+  text-decoration: none;
+  color:white;
+}
 
 /* MY RESUME PAGE CSS */
 
