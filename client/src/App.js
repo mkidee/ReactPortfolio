@@ -1,10 +1,10 @@
 import './App.css';
-
+import Pages from './components/main';
 
 function App() {
     return (
         <div className="pages">
-            {/* <Pages /> */}
+            <Pages />
         </div>
     );
 };
