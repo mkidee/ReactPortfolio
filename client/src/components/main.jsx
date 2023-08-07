@@ -6,7 +6,6 @@ import Resume from './resume';
 import { TopNav, Header, Footer } from './NavHeadFoot';
 
 export default function Pages() {
-    console.log('works?');
     const [page, setPage] = useState('About Me');
 
     const pageContentHandler = (page) => setPage(page);

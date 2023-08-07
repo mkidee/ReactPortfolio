@@ -41,15 +41,15 @@ function Footer() {
     return (
         <section className='footerSpace'>
 
-            <div className='footerLink'>
+            <div>
                 <a href='https://github.com/mkidee' target='_blank' rel='noopener noreferrer'>
-                    <img src={githubicon} alt='github logo link' width='50' height='50' />
+                    <img src={githubicon} className='footerLink' alt='github logo link' />
                 </a>
             </div>
 
-            <div className='footerLink'>
+            <div>
                 <a href='https://www.linkedin.com/in/mckay-memmott-48a166263/' target='_blank' rel='noopener noreferrer'>
-                    <img src={linkedicon} alt='linkedIn logo link' width='50' height='50' />
+                    <img src={linkedicon}  className='footerLink' alt='linkedIn logo link' />
                 </a>
             </div>
 

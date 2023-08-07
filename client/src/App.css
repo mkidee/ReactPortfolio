@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,8 +35,59 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* my css starts here */
+/* general css first */
+
+*{
+  background-color: #b1b2b0;
+}
+
+.tabs{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.tabLinks a{
+  text-decoration: none;
+  color:black;
+  font-size:2.25vw ;
 }
 
 .bigPic{
-  height: 150px;
+  height: 20vw;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.footerSpace{
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid black;
+  /* max-height: 100px;
+  margin-top: 19vh;
+  width:100%;
+  position: absolute; */
+}
+
+.footerLink{
+  max-width: 75px;
+  margin-top: 3vw;
+  margin-left:3vw;
+  margin-right: 3vw;
+}
+
+/* about me */
+.about-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+}
+
+.aboutPara{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  font-size: 2vw;
 }
