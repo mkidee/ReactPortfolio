@@ -6,7 +6,7 @@ import Resume from './resume';
 import { TopNav, Header, Footer } from './NavHeadFoot';
 
 export default function Pages() {
-    console.log('works?')
+    console.log('works?');
     const [page, setPage] = useState('About Me');
 
     const pageContentHandler = (page) => setPage(page);
@@ -21,8 +21,6 @@ export default function Pages() {
     const showPageContent = () => {
         return navPageMap[page] || <AboutMe />;
     };
-
-    console.log('working???')
 
     return (
         <div className="container">
@@ -41,4 +39,4 @@ export default function Pages() {
             </footer>
         </div>
     );
-}   
+}; 

@@ -1,12 +1,12 @@
-import './index.css';
-import Pages from './components/main';
+import './app.css';
+
 
 function App() {
     return (
         <div classname="pages">
-            <Pages />
+            {/* <Pages /> */}
         </div>
-    )
-}
+    );
+};
 
 export default App;
