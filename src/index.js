@@ -1,4 +1,4 @@
-import './app.css';
+import './index.css';
 import Pages from './components/main';
 
 function App() {
