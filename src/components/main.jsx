@@ -3,10 +3,10 @@ import about from './about';
 import contact from './contact';
 import portfolio from './portfolio';
 import resume from './resume';
-
+import { TopNav, Header, Footer } from './NavHeadFoot';
 
 export default function Pages() {
-    const [page, setPage] = useState('about');
+    const [page, setPage] = useState('About Me');
 
     const pageContentHandler = (page) => setPage(page);
 
@@ -24,6 +24,7 @@ export default function Pages() {
     return (
         <div className="container">
             <header className='header'>
+                <Header />
                 <nav className='navbar'>
                     <TopNav page={page} pageContentHandler={pageContentHandler} />
                 </nav>
