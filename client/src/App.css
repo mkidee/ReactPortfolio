@@ -51,22 +51,28 @@ h1{
 
 h2{
   margin-left: 5%;
+  font-size: 2vw;
+  color:#45b6fe;
 }
 
 h3{
-  font-size: 1.5vw;
+  color:#45b6fe;;
+  font-size: 1.75vw;
 }
 
 .tabs{
   display: flex;
   justify-content: space-evenly;
   list-style: none;
+  border-bottom: 2px solid lightblue;;
 }
 
 .tabLinks a{
   text-decoration: none;
-  color:#93acc2;
+  color:#45b6fe;;
   font-size:2vw ;
+  border-bottom: none;
+  margin-bottom: 2vw;;
 }
 
 .bigPic{
@@ -79,16 +85,14 @@ h3{
 .footerSpace{
   display: flex;
   justify-content: center;
-  border-top: 2px solid #93acc2;;
-  /* max-height: 100px;
-  margin-top: 19vh;
-  width:100%;
-  position: absolute; */
+  border-top: 2px solid lightblue;
+  margin-top: 2vw;
 }
 
 .footerLink{
   max-width: 75px;
-  margin-top: 3vw;
+  margin-top: .5vw;
+  margin-bottom: .5vw;
   margin-left:3vw;
   margin-right: 3vw;
 }
@@ -104,7 +108,7 @@ h3{
   margin-left: 2.5%;
   margin-right: 2.5%;
   font-size: 2.5vw;
-  color:#93acc2;;
+  color:#45b6fe;
 }
 
 
@@ -121,6 +125,17 @@ h3{
   text-align: center;
 }
 
+.skillist{
+  font-size: 1.25vw;
+  list-style: none;
+  color: white;
+}
+
+.resumeSpacing a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.25vw;
+}
 
 /* CONTACT ME PAGE CSS */
 
@@ -131,12 +146,14 @@ h3{
 }
 
 .contact-items{
-  color:#93acc2;
+  color:#45b6fe;
+  font-size: 1.25vw;
+  width: 100%;
 }
 
 .name, .email, .message, .submit{
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: 45%;
+  margin-right: 45%;
   margin-bottom: 2vw;
 }
 

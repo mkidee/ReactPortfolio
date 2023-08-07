@@ -32,7 +32,7 @@ export default function Resume() {
 
                 <div className='resumeSpacing'>
                     <a href={resume2023} target='_blank' rel='noopener noreferrer' className='downloadRes'>
-                        My Full Resume Here
+                        Download My Full Resume Here!
                     </a>
                 </div>
 
