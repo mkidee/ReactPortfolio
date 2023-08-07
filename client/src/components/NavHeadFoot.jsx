@@ -33,7 +33,7 @@ function TopNav({ page, pageContentHandler }) {
 
 function Header() {
     return (
-        <h1>Mckay Memmott</h1>
+        <h1>Mckay Memmott's React Portfolio</h1>
     );
 };
 
