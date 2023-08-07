@@ -98,3 +98,26 @@ h1{
   font-size: 2.5vw;
   color:#93acc2;;
 }
+
+
+/* contact */
+
+.contact-form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact-items{
+  color:#93acc2;
+}
+
+.name, .email, .message, .submit{
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-bottom: 2vw;
+}
+
+input, #message{
+  color:white;
+}
